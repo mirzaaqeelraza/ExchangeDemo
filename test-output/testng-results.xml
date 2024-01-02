@@ -1,223 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<font color='dark green'>User got successfully logged in using Username: 8660327769 and Password: 123456</font>]]>
+      <![CDATA[<font color='green'>Browser got launched</font>]]>
     </line>
     <line>
-      <![CDATA[<font color='dark green'>User got failed to log in using Username: 8660327769 and Password: 11</font>]]>
+      <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
     </line>
     <line>
-      <![CDATA[<font color='dark green'>User got failed to log in using Username: 8660327763 and Password: 123456</font>]]>
+      <![CDATA[Email is entered]]>
     </line>
     <line>
-      <![CDATA[<font color='dark green'>User got failed to log in using Username: 8660327769 and Password: </font>]]>
+      <![CDATA[Password is Entered]]>
     </line>
     <line>
-      <![CDATA[<font color='dark green'>User got failed to log in using Username:   and Password: 12346</font>]]>
+      <![CDATA[Clicked on Continue Button]]>
     </line>
     <line>
-      <![CDATA[<font color='dark green'>User got failed to log in using Username:   and Password: </font>]]>
+      <![CDATA[<font color='green'>Browser got closed</font>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-29T16:54:15 IST" name="Default suite" finished-at="2023-11-29T16:57:43 IST" duration-ms="208015">
+  <suite started-at="2024-01-02T12:24:07 IST" name="Default suite" finished-at="2024-01-02T12:25:06 IST" duration-ms="58414">
     <groups>
     </groups>
-    <test started-at="2023-11-29T16:54:15 IST" name="Default test" finished-at="2023-11-29T16:57:43 IST" duration-ms="208015">
-      <class name="com.ExchangeDemo.LoginTest.LoginTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:54:15 IST" name="openApplication" finished-at="2023-11-29T16:54:35 IST" duration-ms="19808" status="PASS">
+    <test started-at="2024-01-02T12:24:07 IST" name="Default test" finished-at="2024-01-02T12:25:06 IST" duration-ms="58414">
+      <class name="com.ExchangeDemo.InGameTest.InGamesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ExchangeDemo.InGameTest.InGamesTest@2af004b]" started-at="2024-01-02T12:24:07 IST" name="setup" finished-at="2024-01-02T12:24:08 IST" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:54:35 IST" name="login" data-provider="LoginTestData" finished-at="2023-11-29T16:54:49 IST" duration-ms="14005" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8660327769]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Success]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeDemo.InGameTest.InGamesTest@2af004b]" started-at="2024-01-02T12:24:08 IST" name="openApplication" finished-at="2024-01-02T12:24:41 IST" duration-ms="33359" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<font color='dark green'>User got successfully logged in using Username: 8660327769 and Password: 123456</font>]]>
+              <![CDATA[<font color='green'>Browser got launched</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login()[pri:1, instance:com.ExchangeDemo.InGameTest.InGamesTest@2af004b]" started-at="2024-01-02T12:24:41 IST" name="login" finished-at="2024-01-02T12:24:56 IST" duration-ms="14859" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Email is entered]]>
+            </line>
+            <line>
+              <![CDATA[Password is Entered]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Continue Button]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:54:49 IST" name="closure" finished-at="2023-11-29T16:54:50 IST" duration-ms="358" status="PASS">
+        <test-method signature="MyAccount()[pri:2, instance:com.ExchangeDemo.InGameTest.InGamesTest@2af004b]" started-at="2024-01-02T12:24:56 IST" name="MyAccount" finished-at="2024-01-02T12:25:05 IST" duration-ms="8623" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closure -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:54:50 IST" name="openApplication" finished-at="2023-11-29T16:55:06 IST" duration-ms="16114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:55:06 IST" name="login" data-provider="LoginTestData" finished-at="2023-11-29T16:55:25 IST" duration-ms="19583" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8660327769]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Failure]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- MyAccount -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeDemo.InGameTest.InGamesTest@2af004b]" started-at="2024-01-02T12:25:05 IST" name="closure" finished-at="2024-01-02T12:25:05 IST" duration-ms="313" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<font color='dark green'>User got failed to log in using Username: 8660327769 and Password: 11</font>]]>
+              <![CDATA[<font color='green'>Browser got closed</font>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:55:25 IST" name="closure" finished-at="2023-11-29T16:55:26 IST" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:55:26 IST" name="openApplication" finished-at="2023-11-29T16:55:39 IST" duration-ms="13771" status="PASS">
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:com.ExchangeDemo.InGameTest.InGamesTest@2af004b]" started-at="2024-01-02T12:25:05 IST" name="reportTeardown" finished-at="2024-01-02T12:25:06 IST" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:55:39 IST" name="login" data-provider="LoginTestData" finished-at="2023-11-29T16:55:59 IST" duration-ms="19608" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8660327763]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Failure]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<font color='dark green'>User got failed to log in using Username: 8660327763 and Password: 123456</font>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:55:59 IST" name="closure" finished-at="2023-11-29T16:55:59 IST" duration-ms="327" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:55:59 IST" name="openApplication" finished-at="2023-11-29T16:56:16 IST" duration-ms="16753" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:56:16 IST" name="login" data-provider="LoginTestData" finished-at="2023-11-29T16:56:36 IST" duration-ms="19506" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8660327769]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Failure]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<font color='dark green'>User got failed to log in using Username: 8660327769 and Password: </font>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:56:36 IST" name="closure" finished-at="2023-11-29T16:56:36 IST" duration-ms="285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:56:36 IST" name="openApplication" finished-at="2023-11-29T16:56:51 IST" duration-ms="14692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:56:51 IST" name="login" data-provider="LoginTestData" finished-at="2023-11-29T16:57:10 IST" duration-ms="19526" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12346]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Failure]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<font color='dark green'>User got failed to log in using Username:   and Password: 12346</font>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:57:10 IST" name="closure" finished-at="2023-11-29T16:57:10 IST" duration-ms="293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:57:10 IST" name="openApplication" finished-at="2023-11-29T16:57:24 IST" duration-ms="13293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:57:24 IST" name="login" data-provider="LoginTestData" finished-at="2023-11-29T16:57:43 IST" duration-ms="19435" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Failure]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<font color='dark green'>User got failed to log in using Username:   and Password: </font>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeDemo.LoginTest.LoginTest@26d9b808]" started-at="2023-11-29T16:57:43 IST" name="closure" finished-at="2023-11-29T16:57:43 IST" duration-ms="246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-      </class> <!-- com.ExchangeDemo.LoginTest.LoginTest -->
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- com.ExchangeDemo.InGameTest.InGamesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
